@@ -1,0 +1,73 @@
+:root{
+    --Blue: hsl(223, 87%, 63%);
+    --PaleBlue: hsl(223, 100%, 88%);
+    --LightRed: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --VeryDarkBlue: hsl(209, 33%, 12%);
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--Gray);
+}
+.card-link{
+    color: var(--Blue);
+}
+
+.social:hover{
+    background-color: var(--Blue);
+}
+
+.card-link:hover{
+    color: white;
+}
+/*bytton*/
+.btn-custom{
+    box-shadow: 4px 4px 4px var(--PaleBlue);
+}
+
+.btn-custom:hover{
+    background-color: var(--PaleBlue);
+}
+
+/*form*/
+.form-custom{
+    width: 30vw;
+    background: none;
+}
+
+.border-gray{
+    border: 1px solid var(--Gray);
+}
+.border-red{
+    border: 1px solid var(--LightRed);
+}
+
+/*utils*/
+.round{
+    border-radius: 30px;
+}
+
+.bg-blue{
+    background-color: var(--Blue);
+}
+
+.text-dark-blue{
+    color: var(--VeryDarkBlue);
+}
+
+.text-red{
+    color: var(--LightRed);
+}
+
+@media (max-width: 700px){
+    .form-custom{
+        width: 92vw;
+    }
+}
